@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package gr.edu.ihu.mapreduce;
 
 import java.io.FileReader;
@@ -14,11 +9,11 @@ import java.util.Scanner;
 
 /**
  *
- * @author Hyae Cinth Ochotorena
+ * @author Ohyae
  */
 public class Map {
     
-    public static String filename = "C:\\Users\\Hyae\\Downloads\\workshop.txt";
+    public static String filename = "C:\\Users\\workshop.txt";
     private  ArrayList<String> arr = new ArrayList<String>(); 
     
     public ArrayList<String> getList(){

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package gr.edu.ihu.mapreduce;
 
 import java.io.FileWriter;
@@ -13,11 +8,11 @@ import java.util.Iterator;
 
 /**
  *
- * @author Hyae
+ * @author Ohyae
  */
 public class Reduce extends Map {
     
-    public static String outputname = ("C:\\Users\\Hyae\\Downloads\\mapreducehw.txt");
+    public static String outputname = ("C:\\Users\\mapreducehw.txt");
     private Hashtable<String, Integer> tab = new Hashtable<String, Integer>();
     public void setTab(Hashtable<String, Integer> tab){
         this.tab = tab;
